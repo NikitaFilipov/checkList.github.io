@@ -1,0 +1,20 @@
+body{
+    text-align: center;
+}
+#field{
+    display: inline-block;
+    margin: 10px;
+}
+#list span {
+	margin-right: 5px;
+}
+#list .remove, #list .mark {
+	color: blue;
+	cursor: pointer;
+}
+#list .remove:hover, #list .mark:hover {
+	text-decoration: underline;
+}
+.checked{
+	text-decoration: line-through;
+}
